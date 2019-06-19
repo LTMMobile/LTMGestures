@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         setContentView(R.layout.activity_main);
 
         _imageView = (ImageView)findViewById( R.id.imageView1 );
-        // set the event listener to the imageView
         _imageView.setOnTouchListener( this );
     }
 

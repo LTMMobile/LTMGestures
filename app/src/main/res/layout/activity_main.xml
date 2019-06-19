@@ -13,6 +13,6 @@
         android:layout_height="match_parent"
         android:cropToPadding="false"
         android:scaleType="matrix"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/image1" />
 
 </FrameLayout>

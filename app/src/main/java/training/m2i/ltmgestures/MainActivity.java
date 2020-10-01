@@ -2,7 +2,7 @@ package training.m2i.ltmgestures;
 
 import android.graphics.Matrix;
 import android.graphics.PointF;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity implements View.OnTouchListener {
-
     private Matrix _matrix = new Matrix();
     private Matrix _savedMatrix = new Matrix();
     private PointF _start = new PointF();
